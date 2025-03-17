@@ -7,6 +7,8 @@ import Pricing from "./components/Pricing";
 import React from "react";
 
 export default () => {
+  console.log("hey");
+
   return (
     <div>
       <StylesProvider>
