@@ -25,7 +25,7 @@ const mount = (el, { onNavigate, defaultHistory }) => {
 
 // If you're using tools like Webpack, Vite, or Next.js, they often set NODE_ENV automatically:
 if (process.env.NODE_ENV === "development") {
-  const devRoot = document.querySelector("#_marketing-dev-root");
+  const devRoot = document.querySelector("#_auth-dev-root");
 
   if (devRoot) {
     mount(devRoot, { defaultHistory: createBrowserHistory() });
